@@ -19,7 +19,7 @@ import datetime # to format time added
 # In[273]:
 
 
-filename = "Small-Raindrop.io.html"
+filename = "Raindrop.io.html"
 
 
 # In[274]:
@@ -83,7 +83,7 @@ df['last_modified'] = pd.to_datetime(df['last_modified'], unit='s')
 
 html = df.to_html(index=False, render_links=True, show_dimensions=True, border=1, justify='left', col_space=150)
 html = "<table  style= \" width:100%; word-break: break-all; \" " + html[7:]
-with open("index.html", "w") as f:
+with open("output_table.html", "w") as f:
     f.write(html)
 
 

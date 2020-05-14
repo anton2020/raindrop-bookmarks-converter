@@ -10,12 +10,23 @@
 
 
 
+### How to use it
+
+1. Download the script
+2. Put the Raindrop export HTML file in the same directory as the script
+3. Make sure the export file is called "Raindrop.io.html" (default export name)
+4. The output HTML table will be generated under the name of "output_table.html" in the same directory
+
+
+
 ### Further improvements
 
 - [ ] Check TODO tags
 - [ ] A descriptive blog post
 - [ ] Executable script accessible from the Terminal
 - [ ] Separate tags onto individual items
-- [ ] Header: name, date saved, date range, number of tags and items
+- [ ] Header: name, date saved, date range, number of tags and items...
 - [ ] Compatibility with Pocket
 - [ ] Output table styling
+- [ ] Check Web Archive / Google Cache for dead links
+

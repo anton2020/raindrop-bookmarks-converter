@@ -12,10 +12,11 @@
 
 ### How to use it
 
-1. Download the script
+1. Download the [v1.py](https://github.com/antonsnotes/raindrop-bookmarks-converter/blob/master/v1.py) script
 2. Put the Raindrop export HTML file in the same directory as the script
-3. Make sure the export file is called "Raindrop.io.html" (default export name)
-4. The output HTML table will be generated under the name of "output_table.html" in the same directory
+3. Make sure the export file is called `Raindrop.io.html` (default export name)
+4. Run the script
+5. The output HTML table will be generated under the name of `output_table.html` in the same directory
 
 
 

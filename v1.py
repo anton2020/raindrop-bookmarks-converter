@@ -35,7 +35,7 @@ f.close()
 
 
 # make soup object with HTML
-soup = BeautifulSoup(doc_html, 'html5') # "lxml" 'xml'
+soup = BeautifulSoup(doc_html, 'html5') # TODO consider using format='html5lib' parser to avoid ambiguity warning? 
 
 
 # In[271]:
